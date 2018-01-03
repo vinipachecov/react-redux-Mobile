@@ -1,26 +1,57 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
 import firebase from 'firebase';
 import { Button, Card, CardSection, Input, Spinner } from './common';
 
 // everything to handle the login action
 
 class LoginForm extends Component {
-    state = { email: '', password: '', error: '', loading: false };
+    state = { email: '', password: '', error: '', loading: false, welcomeText: '' };
 
     //binded function
-    onButtonPress() {
+    onButtonPress() {        
         const { email, password } = this.state;
 
-        this.setState({ error: '', loading: true });
+        this.setState({ error: '', loading: true });        
         
+        //        bindingn the function to the current context
+        //        same to other calls        
         firebase.auth().signInWithEmailAndPassword(email, password)
-            .catch(() => {
-                firebase.auth().createUserWithEmailAndPassword(email, password)
-                    .catch(() => {
-                            this.setState({ error: 'Authentication Failed.' });                
-                    });              
-            });        
+            .then(() => {
+                this.onLoginSuccess();
+            })                   
+            .catch((err) => {                   
+                switch (err.code) {
+                    case 'auth/wrong-password': 
+                        this.onLoginFail(err.message);
+                        break;                        
+                    case 'auth/user-not-found':
+                        firebase.auth().createUserWithEmailAndPassword(email, password)                                      
+                        .catch(this.onLoginFail(err.message))
+                        .then(this.onLoginSuccess());
+                        break;
+                    default:     
+                        this.onLoginFail.bind(this, err.message);
+                        break;
+                }                                       
+            });
+                // .then((sucess) => {
+                //     this.onLoginSuccess.bind(this)}
+                // );                      
+    }
+
+    onLoginFail(message) {
+        this.setState({ error: message, loading: false, password: '', welcomeText: '' });
+    }
+    
+    onLoginSuccess() {        
+        this.setState({ 
+            email: '',
+            password: '',
+            loading: false,
+            error: '',
+            welcomeText: 'Welcome back!'
+        });        
     }
 
     renderButton() {
@@ -29,24 +60,16 @@ class LoginForm extends Component {
         }
 
         return (
-            <Button
-            onPress={this.onButtonPress.bind(this)}
-            > 
+            <Button onPress={this.onButtonPress.bind(this)}>
                 Log in
-            </ Button>
+            </Button>          
         );
     }
 
 
     render() {
         return (
-            // <Card>
-
-            //     <Text>
-            //         Ola
-            //         </Text>
-
-                
+                           
              <Card>
 
                  <CardSection>
@@ -70,11 +93,16 @@ class LoginForm extends Component {
                 
                 <Text style={styles.errorTextStyle}>
                     {this.state.error}
-                </Text>
+                </Text>                
 
                 <CardSection>
-                    {this.renderButton()}                
+               {this.renderButton()}                    
                 </CardSection>  
+
+                <Text style={styles.confirmLoginTextStyle}>
+                    {this.state.welcomeText}
+                </Text>                
+                
             </Card>
            
         );
@@ -82,6 +110,11 @@ class LoginForm extends Component {
 }
 
 const styles = {
+    confirmLoginTextStyle: {
+        fontSize: 20,
+        alignSelf: 'center',
+        color: '#008080'
+    },
     errorTextStyle: {
         fontSize: 20,
         alignSelf: 'center',
@@ -90,4 +123,3 @@ const styles = {
 };
 
 export default LoginForm;
- 
