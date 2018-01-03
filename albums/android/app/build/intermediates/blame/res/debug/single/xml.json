@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vinicius/repos/react-redux-Mobile/albums/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/vinicius/repos/react-redux-Mobile/albums/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
+    }
+]

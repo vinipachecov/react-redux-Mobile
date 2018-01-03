@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_7299d2c8ca6849493841bab2d2d87de6c10576e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_91cc355580d8748c45d09beb04d8d0a416a53198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_98e3040375e53628f7ac32b502721b2c643758ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_40d3e5f5837208d06777e1d2cb12434363c6c10b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_8d48419e2e0ef8257ce07ac0e9db362aeeb1de72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4fe3e550dcbe1e0e1bd6852ed126ead8d5f1a5d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_427fcbedb79a67702b95d902d9779dd0bb1446c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ddc2873fdfa24c9834471eb56e858ba52ef2b04a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_025365f76db0880de1428ba43780e48b50368e3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_91c6db14a9240680afe1cdac420cae82f80382ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_5817622b1aed0a0ef9650850b57e99057fafa5ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_dc07c7e2fe89d720060ffea2a8cdb18a09fbc63e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_302a2d9e6d6a6c536b10749611f004eac7eb624b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_51238c4aac24be262371c7e2b6122d82376f10ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_678c1227bd1cc62982ae788bc9beb17a5a50d095.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cc6fe5cf2d6585e66dd9417fe9cab9937638f28e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_1d2e71c6588d6700c87c28cf407cdc7322f3be80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_adb4949fdbe8ee419ee92d865dd9d5ec0d6e0b3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_706554af372590810cf23df534137335e0100239.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_73e53de2a4cdd1c964c28a5dd127a745298fed17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/vinicius/repos/react-redux-Mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_964552148d02d711125c61b24d2473b8d05a5ee5.jar" />
+    </item>
+
+</items>

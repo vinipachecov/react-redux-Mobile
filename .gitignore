@@ -1,2 +1,3 @@
 node_modules/
-albums/
+albums/node_modules/
+auth/node_modules/
