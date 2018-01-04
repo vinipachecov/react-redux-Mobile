@@ -32,9 +32,11 @@ class App extends Component {
             case true:
             return (
                 <CardSection>
-                <Button>
+                    <Button                    
+                    onPress={() => firebase.auth().signOut()}
+                    >
                     Log out
-                </Button>
+                    </Button>
                 </CardSection>
             );
             case false:
@@ -53,5 +55,11 @@ class App extends Component {
         );
     }
 }
+
+const styles = {
+    ButtonStyle: {
+        marginTop: 5,
+    }
+};
 
 export default App;

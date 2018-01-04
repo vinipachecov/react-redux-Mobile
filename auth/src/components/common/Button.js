@@ -31,7 +31,8 @@ const styles = {
         borderColor: '#008080',
         marginLeft: 5,
         marginRight: 5,
+        marginTop: 5,
     }
 };
 
-export { Button } ;
+export { Button };
