@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Card, CardSection, Input, Button } from './common';
+import { View, Text, Keyboard } from 'react-native';
+import { Card, CardSection, Input, Button, Spinner } from './common';
 import { emailChanged, passwordChange, loginUser } from '../actions';
 
-class LoginForm extends Component {
-    //helper functions for redux which calls a respective action creator
 
+class LoginForm extends Component {
+    
+    //helper functions for redux which calls a respective action creator
     onEmailChange(text) {        
         this.props.emailChanged(text);
     }
@@ -15,9 +17,34 @@ class LoginForm extends Component {
     }
 
     onButtonPress() {
-        const { email, password } = this.props;
+        Keyboard.dismiss();
+        const { email, password } = this.props;        
 
         this.props.loginUser({ email, password });
+    }
+
+    renderError() {
+        if (this.props.error) {
+            return (
+                <View style={{ backgroundColor: 'white' }}>
+                    <Text style={styles.errorTextStyle}>
+                        {this.props.error}      
+                    </Text>
+                </View>
+            );
+        }
+    }
+
+    renderButtonOrSpinner() {
+        if (this.props.loading) {
+            return <Spinner size="large" />;
+        }
+
+        return (
+            <Button onPress={this.onButtonPress.bind(this)}>
+                        Login
+                    </ Button>
+        );
     }
 
     render() {
@@ -42,23 +69,33 @@ class LoginForm extends Component {
                     />
                 </CardSection>
 
+                {this.renderError()}
+
                 <CardSection>
-                    <Button onPress={this.onButtonPress.bind(this)}>
-                        Login
-                    </ Button>
+                    {this.renderButtonOrSpinner()}
                 </CardSection>
             </Card>
         );
     }
 }
 
+const styles = {
+    errorTextStyle: {
+        fontSize: 20,
+        alignSelf: 'center',
+        color: 'red'
+    }
+};
+
 const mapStateToProps = state => {
+    const { email, password, error, loading } = state.auth;
     return {
-        email: state.auth.email,
-        password: state.auth.password
+        email,
+        password,
+        error,
+        loading
     };
 };
 
 export default connect(mapStateToProps, { 
     emailChanged, passwordChange, loginUser })(LoginForm);
-    

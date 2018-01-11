@@ -8,9 +8,12 @@ import firebase from 'firebase';
 //  In this case we use for handling asynchronous code requests.
 
 import ReduxThunk from 'redux-thunk';
+
+//Custom imports
+
 import reducers from './reducers';
 import configuration from '../config/configuration';
-import LoginForm from './components/LoginForm';
+import Router from './Router';
 
 class App extends Component {
 
@@ -34,7 +37,7 @@ class App extends Component {
 
         return (
             <Provider store={store}>
-                <LoginForm />
+                <Router />                
             </Provider>          
         );
     }
