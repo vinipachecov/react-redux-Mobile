@@ -3,7 +3,7 @@ This repositor has my personal code for a course in Udemy platform named The Com
 In this course we build a few apps to understand the concepts behind React Native application development. 
 The apps buildded grows in complexity and the concepts that are used/introduced. 
 
-As I don't have a Mac(yet) the apps were built only for Android Devices. Anyone is free to build for IOS but some the layout display differently.
+As I don't have a Mac(yet) the apps were built only for Android Devices. Anyone is free to build for IOS but maybe the layout display will not be the exactly the same.
 
 * All apps were built for educational purposes and were not meant to be professional apps.
 
